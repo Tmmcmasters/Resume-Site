@@ -42,6 +42,7 @@ const data = [
 
 <template>
   <div class="h-fit w-full">
+    <p class="font-sans">Testing custom font</p>
     <UiTimeline
       :items="data"
       title="Beam me up"

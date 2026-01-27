@@ -3,6 +3,7 @@
 </script>
 
 <template>
+    <slot />
 </template>
 
 

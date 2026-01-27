@@ -8,7 +8,7 @@ export default defineNuxtConfig({
     plugins: [tailwindcss()],
   },
 
-  modules: ["shadcn-nuxt"],
+  modules: ["shadcn-nuxt", "@vueuse/nuxt"],
   shadcn: {
     componentDir: "@/components/ui",
   },

@@ -1,5 +1,6 @@
-<!-- layouts/portfolio.vue -->
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import ImageCursor from "../components/Image/Cursor.vue";
+</script>
 
 <template>
   <div class="min-h-screen flex flex-col bg-background text-foreground">
@@ -21,16 +22,16 @@
 
     <!-- Page content -->
     <main class="flex-1 w-full">
-      <ClientOnly><UiSmoothCursor /></ClientOnly>
+      <ClientOnly><UiSmoothCursor :cursor="ImageCursor" /></ClientOnly>
       <slot />
     </main>
 
-    <!-- Footer -->
-    <footer
+    <!-- Potential Future Footer -->
+    <!-- <footer
       class="w-full px-6 py-4 text-center text-sm text-neutral-500 border-t border-neutral-200 dark:border-neutral-800"
     >
       © {{ new Date().getFullYear() }} Tim McMasters
-    </footer>
+    </footer> -->
   </div>
 </template>
 

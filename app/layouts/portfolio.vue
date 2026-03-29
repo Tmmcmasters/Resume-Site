@@ -21,6 +21,7 @@
 
     <!-- Page content -->
     <main class="flex-1 w-full">
+      <ClientOnly><UiSmoothCursor /></ClientOnly>
       <slot />
     </main>
 

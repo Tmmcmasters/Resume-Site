@@ -4,7 +4,7 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
-  css: ["assets/css/tailwind.css"],
+  css: ["/assets/css/tailwind.css"],
   vite: {
     // @ts-expect-error - Vite version mismatch between @tailwindcss/vite and Nuxt's internal Vite
     plugins: [tailwindcss()],

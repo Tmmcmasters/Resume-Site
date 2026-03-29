@@ -11,7 +11,7 @@ definePageMeta({
 
 <template>
   <div class="h-fit w-full">
-    <p class="">Testing custom font</p>
+    <p class="font-crimson">Testing custom font</p>
   </div>
 </template>
 

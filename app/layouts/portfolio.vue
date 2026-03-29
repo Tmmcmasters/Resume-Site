@@ -2,8 +2,6 @@
 
 <template>
   <div>
-    <p>Here is the layout</p>
-
     <slot />
   </div>
 </template>

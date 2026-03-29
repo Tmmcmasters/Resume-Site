@@ -3,7 +3,14 @@ import ImageCursor from "../components/Image/Cursor.vue";
 </script>
 
 <template>
-  <div class="min-h-screen flex flex-col bg-background text-foreground">
+  <div
+    class="min-h-screen flex flex-col bg-background text-foreground relative"
+  >
+    <!-- Background Image -->
+    <NuxtImg
+      src="/imgs/desktop-background.png"
+      class="object-full absolute top-0 w-full h-full select-none pointer-events-none"
+    />
     <!-- Potential Future Header -->
     <!-- <header
       class="w-full px-6 py-4 flex items-center justify-between border-b border-neutral-200 dark:border-neutral-800"
